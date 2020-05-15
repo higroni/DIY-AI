@@ -304,6 +304,8 @@ Sada sledite ove korake:
 
   - Sada bi trebalo da imate učitan novi prazan projekat, kao što je
     prikazano ispod
+	
+	![](media/image10.png)
 
   - Kliknite na „Add to Project“, pa odaberite „AutoAI Experiment“
 
@@ -417,7 +419,7 @@ Sada sledite ove korake:
   - U trenutku kada se status pretvori u „Ready“, Vaš model je spreman
     za testiranje:
 
-  - ![](media/image11.png)
+  ![](media/imageg.png)
 
   - Kliknite na ime modela (u ovom primeru HRMODEL) , a zatim odaberite
     tab „Test“, kao ispod
@@ -639,6 +641,8 @@ Sada sledite ove korake:
 </table>
 
   - Klikom na „Predict“ dobijamo predviđanje:
+  
+    ![](media/image12.png)
 
   - Procenat obeležen iznad (59.10%) se odnosi na ishod „Da“, drugim
     rečima **procena verovatnoće da će zaposleni pod trenutnim uslovima
