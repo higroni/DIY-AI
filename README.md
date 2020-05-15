@@ -258,7 +258,12 @@ otpočinjemo kucanjem sledeće adrese u pregledač:
 
 ![](media/image2.png)
 
-Sada sledite ove korake:
+Kompletan proces izrade i testiranja AI modela prikazan je u sledećem videu:
+[![Pogledajte video](media/video.png)](https://youtu.be/NcHWzA-iOtw)
+
+**Korak-po-korak uputstvo**
+
+Nakon odlaska na početnu stranicu IBM Watson Studio portala, sledite ove korake:
 
   - Kliknite na „Try it for Free“
 
