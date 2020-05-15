@@ -280,6 +280,8 @@ Sada sledite ove korake:
     kliknite „Maybe later“ za nastavak
 
   - Sada biste trebali biti na početnom ekranu Watson Studia
+  
+  ![](media/imagef.png)
 
   - Kliknite na „Create a project“, zatim izaberite „Create an empty
     project“
