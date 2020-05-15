@@ -209,7 +209,7 @@ rezultate.
   - U našem primeru, pripremili smo trening Excel od oko 1,500 redova, u
     kome su dobro zastupljena oba poslovna ishoda koje posmatramo (oko
     240 zaposlenih koji su, istorijski, napustili firmu, i svi ostali
-    koji nisu). Excel fajl možete download-ovati iz template podfoldera i napuniti ga svojim podacima.
+    koji nisu). 
 
   - U nekim drugim slučajevima možete koristiti grubu preporuku iz
     prakse koja kaže da broj redova treba da bude minimalno 10 puta veći
@@ -229,10 +229,8 @@ jednom bude napravljen, ostaje nam samo da ga koristimo, na krajnje
 jednostavan način – unosom upita u Web formular.
 
 Primer testnih podataka koji ćemo koristiti odnosi se na fiktivnu srpsku
-kompaniju. Podaci se mogu naći u Excel fajlu koji će Vam biti na
-raspolaganju za download sa stranice sa uputstvom korak-po-korak, na
-koju možete doći skeniranjem ili QR koda iz ovog članka, ili ukucavanjem
-sledeće adrese u Vaš Web pregledač: ibm.biz/estimator .
+kompaniju. Podaci se mogu naći u Excel fajlu koji Vam je na
+raspolaganju za download iz podfoldera template. .
 
 Taj Excel fajl izgleda ovako:
 
