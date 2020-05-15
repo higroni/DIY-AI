@@ -209,7 +209,7 @@ rezultate.
   - U našem primeru, pripremili smo trening Excel od oko 1,500 redova, u
     kome su dobro zastupljena oba poslovna ishoda koje posmatramo (oko
     240 zaposlenih koji su, istorijski, napustili firmu, i svi ostali
-    koji nisu).
+    koji nisu). Excel fajl možete download-ovati iz template podfoldera i napuniti ga svojim podacima.
 
   - U nekim drugim slučajevima možete koristiti grubu preporuku iz
     prakse koja kaže da broj redova treba da bude minimalno 10 puta veći
@@ -430,7 +430,7 @@ Sada sledite ove korake:
   - U sekciji „Enter Input Data“ unesite podatke za nekog zaposlenog
     koji nije bio u originalnom Excel fajlu (to može npr biti novi
     zaposleni, ili podaci kandidata kojeg razmišljate da zaposlite),
-    recimo mi smo uneli sledeći set podataka:
+    recimo mi smo uneli set podataka iz tabele ispod (napomena: ukoliko Vas mrzi da prekucavate sve ove podatke, u podfolderu test možete naći podatke u JSON formatu, koje možete paste-ovati u "Enter input data" polje, s tim što pre toga treba kliknuti na ikonicu 'novi dokument' koja se nalazi  desno od natpisa "Enter input data").
 
 <table>
 <tbody>
