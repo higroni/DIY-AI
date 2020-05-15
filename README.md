@@ -119,6 +119,8 @@ menadžer, količina putovanja i sl).
 Metodologija izrade našeg AI “HR savetnika” prikazana je na grafikonu
 ispod:
 
+![](media/imagee.png)
+
 > Aktivnosti se odvijaju u nekoliko faza:
 
   - Prikupljanje podataka unutar Vaše kompanije (iz HR baza, Excel
