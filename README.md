@@ -422,7 +422,9 @@ Sada sledite ove korake:
   ![](media/imageg.png)
 
   - Kliknite na ime modela (u ovom primeru HRMODEL) , a zatim odaberite
-    tab „Test“, kao ispod
+    tab „Test“, kao ispod:
+	
+ ![](media/imageh.png)
 
   - U sekciji „Enter Input Data“ unesite podatke za nekog zaposlenog
     koji nije bio u originalnom Excel fajlu (to može npr biti novi
@@ -433,11 +435,7 @@ Sada sledite ove korake:
 <tbody>
 <tr class="odd">
 <td><table>
-<thead>
-<tr class="header">
 <th>Ime</th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
 <td>Prezime</td>
