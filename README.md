@@ -1,3 +1,4 @@
+
 **DIY AI**
 
 *Kako da sami, bez ikakvog predznanja, napravite aplikaciju na bazi
@@ -121,7 +122,7 @@ ispod:
 
 ![](media/imagee.png)
 
-> Aktivnosti se odvijaju u nekoliko faza:
+Aktivnosti se odvijaju u nekoliko faza:
 
   - Prikupljanje podataka unutar Vaše kompanije (iz HR baza, Excel
     fajlova, dokumenata) - ovo je ujedno i najmukotrpniji deo posla
@@ -340,40 +341,40 @@ Sada sledite ove korake:
     modela koje je sistem napravio i istestirao, a biće rangirane po
     kvalitetu, na bazi tzv. Metoda karakteristične krive
 
-> **Kako se ocenjuje kvalitet AI modela?**
-> 
-> Prilikom izrade modela, ulazni set podataka se deli na „trening
-> podatke“ i „testne podatke“. To znači da će sistem iz Vašeg
-> originalnog fajla uzeti određeni procenat redova (tipično 20%, ali
-> može se izabrati i drugi procenat) i sačuvati ih za testiranje (ti
-> podaci neće biti korišćeni za treniranje modela). Kada se jednom
-> napravi model (korišćenjem trening podataka), tada se testnim podacima
-> „meri“ tačnost modela (sistem sam unese ulazne podatke za zaposlenog
-> iz testnog seta, i dobije predviđanje od modela da li će taj zaposleni
-> napustiti kompaniju ili ne; zatim sistem to uporedi sa tačnim
-> odgovorom kojeg već ima u ulaznim podacima, i na taj način formira
-> statistiku uspešnosti određene varijante modela). Zatim sistem
-> isprobava druge varijante algoritama, ili koristi dodatne metode
-> optimizacije (poput Feature Engineering-a ili Hyperparameter
-> optimizacije) kako bi kreirao dodatne varijante, i upoređuje koja se
-> od njih najbolje pokazala pri testiranju.
-> 
-> Kada sistem dođe do završne tačke (P4), što u proseku traje oko 15ak
-> minuta, klikom na „Pipeline Comparison“ može se videti grafičko
-> upoređenje uspešnosti testiranja različitih varijanti modela.
-> 
-> ![](media/image7.png)
-> 
-> Na dnu ekrana se i dalje nalazi tabela sa varijantama modela
-> rangiranim po uspešnosti, gde na vrhu možemo otkriti ko je „šampion“:
-> 
-> ![](media/image8.png)
-> 
-> Budući da je „Pipeline 4“ (bar u našem primeru) izdvojen kao najbolji,
-> u daljem radu ćemo koristiti ovu varijaciju modela. Skrolujte skroz
-> desno i u redu „Pipeline 4“ kliknite na dugme „Save as... Model“ koje
-> će se pojaviti kada mišem pređete preko kolone „Recall“, kao što se
-> vidi ispod:
+ **Kako se ocenjuje kvalitet AI modela?**
+ 
+ Prilikom izrade modela, ulazni set podataka se deli na „trening
+ podatke“ i „testne podatke“. To znači da će sistem iz Vašeg
+ originalnog fajla uzeti određeni procenat redova (tipično 20%, ali
+ može se izabrati i drugi procenat) i sačuvati ih za testiranje (ti
+ podaci neće biti korišćeni za treniranje modela). Kada se jednom
+ napravi model (korišćenjem trening podataka), tada se testnim podacima
+ „meri“ tačnost modela (sistem sam unese ulazne podatke za zaposlenog
+ iz testnog seta, i dobije predviđanje od modela da li će taj zaposleni
+ napustiti kompaniju ili ne; zatim sistem to uporedi sa tačnim
+ odgovorom kojeg već ima u ulaznim podacima, i na taj način formira
+ statistiku uspešnosti određene varijante modela). Zatim sistem
+ isprobava druge varijante algoritama, ili koristi dodatne metode
+ optimizacije (poput Feature Engineering-a ili Hyperparameter
+ optimizacije) kako bi kreirao dodatne varijante, i upoređuje koja se
+ od njih najbolje pokazala pri testiranju.
+ 
+ Kada sistem dođe do završne tačke (P4), što u proseku traje oko 15ak
+ minuta, klikom na „Pipeline Comparison“ može se videti grafičko
+ upoređenje uspešnosti testiranja različitih varijanti modela.
+ 
+ ![](media/image7.png)
+ 
+ Na dnu ekrana se i dalje nalazi tabela sa varijantama modela
+ rangiranim po uspešnosti, gde na vrhu možemo otkriti ko je „šampion“:
+ 
+ ![](media/image8.png)
+ 
+ Budući da je „Pipeline 4“ (bar u našem primeru) izdvojen kao najbolji,
+ u daljem radu ćemo koristiti ovu varijaciju modela. Skrolujte skroz
+ desno i u redu „Pipeline 4“ kliknite na dugme „Save as... Model“ koje
+ će se pojaviti kada mišem pređete preko kolone „Recall“, kao što se
+ vidi ispod:
 
   - U pop-up prozoru koji se pojavi prihvatite ponuđeno ime modela i
     kliknite „Save“
@@ -386,22 +387,22 @@ Sada sledite ove korake:
     eksperiment, kao i da se u sekciji Models na dnu strane pojavio Vaš
     snimljeni model, kao ispod:
 
-> ![](media/image10.png)
-> 
-> **Kako da model „oživi“**
-> 
-> AI modeli su, u suštini, ništa drugo nego skup (matrica) parametara po
-> kojoj se može konfigurisati statistički sistem (server sa
-> odgovarajućim baznim softverom), da bi za zadate ulaze dao željeni
-> izlaz (slično kao što se štelovanjem niza dugmića na miks pultu u
-> muzičkom studiju za određeni ulazni zvuk podešava željeni zvuk na
-> izlazu). Kao što računarski program, da bi radio neku korisnu
-> funkciju, treba instalirati na neki računar i pokrenuti, tako se i AI
-> model pre korišćenja mora instalirati i pokrenuti na pogodnom
-> računarskom sistemu (serveru), a taj proces se naziva Deployment. Da
-> bi instalirali i pokrenuli naš model na instanci servera (koju smo
-> konfigurisali u jednom od prethodnih koraka), treba preduzeti sledeći
-> niz akcija:
+ ![](media/image10.png)
+ 
+ **Kako da model „oživi“**
+ 
+ AI modeli su, u suštini, ništa drugo nego skup (matrica) parametara po
+ kojoj se može konfigurisati statistički sistem (server sa
+ odgovarajućim baznim softverom), da bi za zadate ulaze dao željeni
+ izlaz (slično kao što se štelovanjem niza dugmića na miks pultu u
+ muzičkom studiju za određeni ulazni zvuk podešava željeni zvuk na
+ izlazu). Kao što računarski program, da bi radio neku korisnu
+ funkciju, treba instalirati na neki računar i pokrenuti, tako se i AI
+ model pre korišćenja mora instalirati i pokrenuti na pogodnom
+ računarskom sistemu (serveru), a taj proces se naziva Deployment. Da
+ bi instalirali i pokrenuli naš model na instanci servera (koju smo
+ konfigurisali u jednom od prethodnih koraka), treba preduzeti sledeći
+ niz akcija:
 
   - Kliknite na ime modela (u našem slučaju AIEXPERIMENT – P4
     XGBClassifierEstimator)
