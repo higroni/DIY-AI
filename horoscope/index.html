@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<title>Natalna karta</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<h1>Generator natalnog horoskopa</h1>
+<form id="horoscopeForm">
+  <label>Ime:
+    <input type="text" id="name" required>
+  </label>
+  <label>Grad rođenja:
+    <input type="text" id="city" list="citylist" required>
+    <datalist id="citylist"></datalist>
+  </label>
+  <label>Datum:
+    <input type="date" id="date" required>
+  </label>
+  <label>Vreme:
+    <input type="time" id="time" required>
+  </label>
+  <button type="submit">Izradi horoskop</button>
+</form>
+
+<canvas id="chart" width="400" height="400"></canvas>
+<pre id="positions"></pre>
+<button id="savePdf">Sačuvaj PDF</button>
+
+<script src="cities.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
